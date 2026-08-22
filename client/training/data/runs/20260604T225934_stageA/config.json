@@ -1,0 +1,71 @@
+{
+  "stage": "A",
+  "strategy": "gp_stage_a",
+  "tree_keys": [
+    "tree4",
+    "tree5"
+  ],
+  "extra_params": {},
+  "seeds_per_gen": 1,
+  "smoke": false,
+  "master_seed": 12345,
+  "pop_size": 80,
+  "max_generations": 100,
+  "patience": 8,
+  "crossover_rate": 0.7,
+  "mutation_rate": 0.2,
+  "max_height": 17,
+  "workers": 24,
+  "warm_start_copies": 4,
+  "hall_of_fame_size": 5,
+  "confirm_seeds": 5,
+  "train_scenarios": [
+    "busy",
+    "busy_uniform_interleaved",
+    "default",
+    "default_uniform_interleaved",
+    "empty_buffer",
+    "high_buffer",
+    "high_buffer_uniform_interleaved",
+    "large_vehicle",
+    "quiet",
+    "quiet_uniform_interleaved",
+    "saturation",
+    "shallow_stacks"
+  ],
+  "held_out_scenarios": [
+    "comp_scenario_1",
+    "comp_scenario_2",
+    "comp_scenario_3"
+  ],
+  "features_hook2": [
+    "dist_source",
+    "dist_handover",
+    "buf_free",
+    "is_empty",
+    "blocks_requested_in_buf",
+    "reach_count"
+  ],
+  "features_hook4": [
+    "is_downstream",
+    "is_upstream",
+    "blocks_above",
+    "successor_count",
+    "move_age",
+    "pd_dist",
+    "nearest_crane_dist",
+    "total_moves"
+  ],
+  "features_hook5": [
+    "dist_pickup",
+    "dist_dropoff",
+    "crane_pos_norm",
+    "crane_load",
+    "range_headroom",
+    "gap_to_other"
+  ],
+  "warm_start_trees": {
+    "tree4": "sub(neg(mul(is_downstream, 10.0)), move_age)",
+    "tree5": "mul(dist_pickup, dist_dropoff)"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "stage": "D",
+  "strategy": "gp_stage_e",
+  "tree_keys": [
+    "tree2",
+    "tree4",
+    "tree5"
+  ],
+  "extra_params": {
+    "digout": "True",
+    "headline_fix": "False"
+  },
+  "seeds_per_gen": 3,
+  "smoke": false,
+  "master_seed": 12345,
+  "pop_size": 60,
+  "max_generations": 60,
+  "patience": 8,
+  "crossover_rate": 0.7,
+  "mutation_rate": 0.2,
+  "max_height": 17,
+  "workers": 24,
+  "warm_start_copies": 4,
+  "hall_of_fame_size": 15,
+  "confirm_seeds": 10,
+  "train_scenarios": [
+    "busy",
+    "busy_uniform_interleaved",
+    "default",
+    "default_uniform_interleaved",
+    "empty_buffer",
+    "high_buffer",
+    "high_buffer_uniform_interleaved",
+    "large_vehicle",
+    "quiet",
+    "quiet_uniform_interleaved",
+    "saturation",
+    "shallow_stacks"
+  ],
+  "held_out_scenarios": [
+    "comp_scenario_1",
+    "comp_scenario_2",
+    "comp_scenario_3"
+  ],
+  "features_hook2": [
+    "dist_source",
+    "dist_handover",
+    "buf_free",
+    "is_empty",
+    "blocks_requested_in_buf",
+    "reach_count"
+  ],
+  "features_hook4": [
+    "is_downstream",
+    "is_upstream",
+    "blocks_above",
+    "successor_count",
+    "move_age",
+    "pd_dist",
+    "nearest_crane_dist",
+    "total_moves"
+  ],
+  "features_hook5": [
+    "dist_pickup",
+    "dist_dropoff",
+    "crane_pos_norm",
+    "crane_load",
+    "range_headroom",
+    "gap_to_other"
+  ],
+  "warm_start_trees": {
+    "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(add(add(abs(dist_source), abs(max2(abs(dist_source), max2(0.6936579294547336, max2(is_empty, blocks_requested_in_buf))))), add(protected_div(0.3705434991711263, blocks_requested_in_buf), blocks_requested_in_buf))), abs(add(abs(dist_source), abs(dist_source)))), add(blocks_requested_in_buf, dist_source)))), add(add(blocks_requested_in_buf, abs(dist_source)), add(dist_source, dist_source)))",
+    "tree4": "sub(pd_dist, max2(abs(max2(nearest_crane_dist, is_upstream)), max2(max2(nearest_crane_dist, nearest_crane_dist), max2(max2(is_downstream, abs(max2(max2(mul(mul(nearest_crane_dist, pd_dist), is_upstream), mul(total_moves, is_upstream)), mul(nearest_crane_dist, is_upstream)))), max2(max2(nearest_crane_dist, -1.2945770001938692), nearest_crane_dist)))))",
+    "tree5": "sub(mul(dist_dropoff, mul(dist_dropoff, range_headroom)), range_headroom)"
+  }
+}

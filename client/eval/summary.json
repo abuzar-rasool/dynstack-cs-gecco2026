@@ -1,0 +1,1399 @@
+{
+  "last_updated": "20260822T145954Z",
+  "strategies": [
+    "cmaes_champion",
+    "nearest_crane",
+    "pham_rule_based",
+    "sca_gphh_stage_a",
+    "sca_gphh_stage_b",
+    "sca_gphh_stage_c",
+    "sca_gphh_stage_d",
+    "sca_gphh_stage_e"
+  ],
+  "per_scenario_rankings": {
+    "busy": [
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -215.1,
+          3394.9
+        ],
+        "rank": 1.0,
+        "std_blocks": 11.62,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -209.5,
+          3160.5
+        ],
+        "rank": 2.0,
+        "std_blocks": 11.82,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -208.6,
+          3005.4
+        ],
+        "rank": 3.0,
+        "std_blocks": 11.23,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -193.6,
+          2406.4
+        ],
+        "rank": 4.0,
+        "std_blocks": 8.26,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -190.3,
+          2672.7
+        ],
+        "rank": 5.0,
+        "std_blocks": 8.37,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -179.4,
+          2698.0
+        ],
+        "rank": 6.0,
+        "std_blocks": 10.65,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -164.1,
+          3488.0
+        ],
+        "rank": 7.0,
+        "std_blocks": 6.37,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -95.6,
+          1543.7
+        ],
+        "rank": 8.0,
+        "std_blocks": 8.34,
+        "n_seeds": 10
+      }
+    ],
+    "busy_uniform_interleaved": [
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -305.6,
+          3599.0
+        ],
+        "rank": 1.0,
+        "std_blocks": 5.58,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -299.4,
+          3599.0
+        ],
+        "rank": 2.0,
+        "std_blocks": 8.57,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -297.0,
+          3599.0
+        ],
+        "rank": 3.0,
+        "std_blocks": 5.5,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -293.5,
+          3599.0
+        ],
+        "rank": 4.0,
+        "std_blocks": 5.62,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -289.3,
+          3599.0
+        ],
+        "rank": 5.0,
+        "std_blocks": 3.92,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -288.4,
+          3599.0
+        ],
+        "rank": 6.0,
+        "std_blocks": 3.03,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -177.4,
+          3586.1
+        ],
+        "rank": 7.0,
+        "std_blocks": 7.2,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -98.1,
+          1536.2
+        ],
+        "rank": 8.0,
+        "std_blocks": 8.14,
+        "n_seeds": 10
+      }
+    ],
+    "comp_scenario_1": [
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -173.8,
+          1996.8
+        ],
+        "rank": 1.0,
+        "std_blocks": 15.92,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -171.6,
+          1660.0
+        ],
+        "rank": 2.0,
+        "std_blocks": 15.81,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -171.1,
+          1706.3
+        ],
+        "rank": 3.0,
+        "std_blocks": 14.19,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -160.0,
+          1688.3
+        ],
+        "rank": 4.0,
+        "std_blocks": 10.8,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -158.4,
+          1981.6
+        ],
+        "rank": 5.0,
+        "std_blocks": 9.02,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -146.2,
+          2193.1
+        ],
+        "rank": 6.0,
+        "std_blocks": 6.7,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -136.9,
+          1628.2
+        ],
+        "rank": 7.0,
+        "std_blocks": 27.18,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -96.9,
+          1478.3
+        ],
+        "rank": 8.0,
+        "std_blocks": 4.84,
+        "n_seeds": 10
+      }
+    ],
+    "comp_scenario_2": [
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -181.4,
+          2045.2
+        ],
+        "rank": 1.0,
+        "std_blocks": 7.34,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -180.9,
+          2433.2
+        ],
+        "rank": 2.0,
+        "std_blocks": 7.19,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -178.2,
+          1983.8
+        ],
+        "rank": 3.0,
+        "std_blocks": 6.76,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -165.4,
+          1925.1
+        ],
+        "rank": 4.0,
+        "std_blocks": 5.95,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -160.8,
+          1899.9
+        ],
+        "rank": 5.0,
+        "std_blocks": 6.78,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -154.0,
+          2126.1
+        ],
+        "rank": 6.0,
+        "std_blocks": 4.88,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -146.1,
+          2343.0
+        ],
+        "rank": 7.0,
+        "std_blocks": 7.99,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -101.4,
+          1443.3
+        ],
+        "rank": 8.0,
+        "std_blocks": 4.17,
+        "n_seeds": 10
+      }
+    ],
+    "comp_scenario_3": [
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -171.2,
+          1704.5
+        ],
+        "rank": 1.0,
+        "std_blocks": 10.44,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -169.7,
+          1663.2
+        ],
+        "rank": 2.0,
+        "std_blocks": 8.49,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -169.3,
+          1530.5
+        ],
+        "rank": 3.0,
+        "std_blocks": 12.88,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -155.5,
+          1574.8
+        ],
+        "rank": 4.0,
+        "std_blocks": 7.29,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -153.7,
+          1816.0
+        ],
+        "rank": 5.0,
+        "std_blocks": 8.46,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -142.7,
+          1994.8
+        ],
+        "rank": 6.0,
+        "std_blocks": 5.52,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -126.7,
+          2311.6
+        ],
+        "rank": 7.0,
+        "std_blocks": 32.28,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -96.4,
+          1453.0
+        ],
+        "rank": 8.0,
+        "std_blocks": 4.5,
+        "n_seeds": 10
+      }
+    ],
+    "default": [
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -181.3,
+          2097.5
+        ],
+        "rank": 1.0,
+        "std_blocks": 7.87,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -180.5,
+          2279.1
+        ],
+        "rank": 2.0,
+        "std_blocks": 7.79,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -177.8,
+          2392.0
+        ],
+        "rank": 3.0,
+        "std_blocks": 10.17,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -163.2,
+          1680.9
+        ],
+        "rank": 4.0,
+        "std_blocks": 5.49,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -161.9,
+          1789.6
+        ],
+        "rank": 5.0,
+        "std_blocks": 5.04,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -144.4,
+          2391.8
+        ],
+        "rank": 6.0,
+        "std_blocks": 5.83,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -140.5,
+          1781.6
+        ],
+        "rank": 7.0,
+        "std_blocks": 21.59,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -95.3,
+          1457.6
+        ],
+        "rank": 8.0,
+        "std_blocks": 7.59,
+        "n_seeds": 10
+      }
+    ],
+    "default_uniform_interleaved": [
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -184.5,
+          2727.3
+        ],
+        "rank": 1.0,
+        "std_blocks": 9.56,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -182.5,
+          2621.7
+        ],
+        "rank": 2.0,
+        "std_blocks": 5.44,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -182.0,
+          2617.5
+        ],
+        "rank": 3.0,
+        "std_blocks": 8.22,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -161.4,
+          2027.9
+        ],
+        "rank": 4.0,
+        "std_blocks": 8.02,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -160.5,
+          1937.3
+        ],
+        "rank": 5.0,
+        "std_blocks": 6.2,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -147.9,
+          2215.0
+        ],
+        "rank": 6.0,
+        "std_blocks": 5.57,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -141.2,
+          2474.1
+        ],
+        "rank": 7.0,
+        "std_blocks": 10.41,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -95.8,
+          1470.2
+        ],
+        "rank": 8.0,
+        "std_blocks": 6.56,
+        "n_seeds": 10
+      }
+    ],
+    "empty_buffer": [
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -191.8,
+          1645.1
+        ],
+        "rank": 1.0,
+        "std_blocks": 11.84,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -183.9,
+          1785.8
+        ],
+        "rank": 2.0,
+        "std_blocks": 9.57,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -177.4,
+          2561.8
+        ],
+        "rank": 3.0,
+        "std_blocks": 12.18,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -171.6,
+          1714.8
+        ],
+        "rank": 4.0,
+        "std_blocks": 8.36,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -167.9,
+          1829.6
+        ],
+        "rank": 5.0,
+        "std_blocks": 6.72,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -163.6,
+          2677.7
+        ],
+        "rank": 6.0,
+        "std_blocks": 6.22,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -150.5,
+          2370.1
+        ],
+        "rank": 7.0,
+        "std_blocks": 8.24,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -117.1,
+          1215.4
+        ],
+        "rank": 8.0,
+        "std_blocks": 3.73,
+        "n_seeds": 10
+      }
+    ],
+    "high_buffer": [
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -171.7,
+          2981.2
+        ],
+        "rank": 1.0,
+        "std_blocks": 11.62,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -171.6,
+          2207.1
+        ],
+        "rank": 2.0,
+        "std_blocks": 9.41,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -165.3,
+          2874.2
+        ],
+        "rank": 3.0,
+        "std_blocks": 9.14,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -152.5,
+          1959.4
+        ],
+        "rank": 4.0,
+        "std_blocks": 6.72,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -150.9,
+          1732.8
+        ],
+        "rank": 5.0,
+        "std_blocks": 7.42,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -138.0,
+          2304.7
+        ],
+        "rank": 6.0,
+        "std_blocks": 7.41,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -124.1,
+          2723.4
+        ],
+        "rank": 7.0,
+        "std_blocks": 31.47,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -85.8,
+          1726.0
+        ],
+        "rank": 8.0,
+        "std_blocks": 5.05,
+        "n_seeds": 10
+      }
+    ],
+    "high_buffer_uniform_interleaved": [
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -171.2,
+          2904.3
+        ],
+        "rank": 1.0,
+        "std_blocks": 8.26,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -170.7,
+          3183.6
+        ],
+        "rank": 2.0,
+        "std_blocks": 8.39,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -170.6,
+          2804.3
+        ],
+        "rank": 3.0,
+        "std_blocks": 11.71,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -148.9,
+          2204.3
+        ],
+        "rank": 4.0,
+        "std_blocks": 7.96,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -147.0,
+          1710.9
+        ],
+        "rank": 5.0,
+        "std_blocks": 16.86,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -139.7,
+          2312.8
+        ],
+        "rank": 6.0,
+        "std_blocks": 7.76,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -136.0,
+          2566.6
+        ],
+        "rank": 7.0,
+        "std_blocks": 7.63,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -84.0,
+          1721.2
+        ],
+        "rank": 8.0,
+        "std_blocks": 5.93,
+        "n_seeds": 10
+      }
+    ],
+    "large_vehicle": [
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -220.1,
+          3380.2
+        ],
+        "rank": 1.0,
+        "std_blocks": 9.5,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -216.7,
+          3277.4
+        ],
+        "rank": 2.0,
+        "std_blocks": 12.53,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -215.0,
+          3140.4
+        ],
+        "rank": 3.0,
+        "std_blocks": 12.21,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -203.2,
+          2782.8
+        ],
+        "rank": 4.0,
+        "std_blocks": 7.55,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -200.9,
+          3053.2
+        ],
+        "rank": 5.0,
+        "std_blocks": 5.93,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -177.4,
+          2960.2
+        ],
+        "rank": 6.0,
+        "std_blocks": 35.04,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -169.2,
+          3537.0
+        ],
+        "rank": 7.0,
+        "std_blocks": 7.13,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -97.3,
+          2221.5
+        ],
+        "rank": 8.0,
+        "std_blocks": 4.3,
+        "n_seeds": 10
+      }
+    ],
+    "quiet": [
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -138.7,
+          980.3
+        ],
+        "rank": 1.0,
+        "std_blocks": 9.38,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -138.5,
+          1217.0
+        ],
+        "rank": 2.0,
+        "std_blocks": 9.13,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -138.3,
+          1256.6
+        ],
+        "rank": 3.0,
+        "std_blocks": 8.88,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -137.2,
+          1039.9
+        ],
+        "rank": 4.0,
+        "std_blocks": 8.74,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -136.1,
+          1423.3
+        ],
+        "rank": 5.0,
+        "std_blocks": 7.99,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -134.2,
+          1475.7
+        ],
+        "rank": 6.0,
+        "std_blocks": 7.74,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -121.9,
+          1377.3
+        ],
+        "rank": 7.0,
+        "std_blocks": 5.4,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -103.1,
+          1204.1
+        ],
+        "rank": 8.0,
+        "std_blocks": 6.61,
+        "n_seeds": 10
+      }
+    ],
+    "quiet_uniform_interleaved": [
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -133.3,
+          749.3
+        ],
+        "rank": 1.0,
+        "std_blocks": 11.2,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -133.2,
+          1215.6
+        ],
+        "rank": 2.0,
+        "std_blocks": 10.56,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -132.4,
+          1352.1
+        ],
+        "rank": 3.0,
+        "std_blocks": 10.64,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -130.6,
+          1111.8
+        ],
+        "rank": 4.0,
+        "std_blocks": 8.4,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -130.5,
+          1087.9
+        ],
+        "rank": 5.0,
+        "std_blocks": 9.36,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -128.8,
+          1936.0
+        ],
+        "rank": 6.0,
+        "std_blocks": 6.6,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -121.7,
+          1102.0
+        ],
+        "rank": 7.0,
+        "std_blocks": 7.09,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -97.5,
+          1131.1
+        ],
+        "rank": 8.0,
+        "std_blocks": 8.09,
+        "n_seeds": 10
+      }
+    ],
+    "saturation": [
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -262.0,
+          3454.1
+        ],
+        "rank": 1.0,
+        "std_blocks": 6.06,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -256.9,
+          3491.7
+        ],
+        "rank": 2.0,
+        "std_blocks": 5.99,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -256.5,
+          3432.8
+        ],
+        "rank": 3.0,
+        "std_blocks": 10.31,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -247.4,
+          3283.5
+        ],
+        "rank": 4.0,
+        "std_blocks": 8.02,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -244.8,
+          3240.0
+        ],
+        "rank": 5.0,
+        "std_blocks": 6.18,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -242.1,
+          3396.7
+        ],
+        "rank": 6.0,
+        "std_blocks": 5.88,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -169.4,
+          3483.9
+        ],
+        "rank": 7.0,
+        "std_blocks": 4.35,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -97.0,
+          1507.1
+        ],
+        "rank": 8.0,
+        "std_blocks": 7.23,
+        "n_seeds": 10
+      }
+    ],
+    "shallow_stacks": [
+      {
+        "strategy": "sca_gphh_stage_e",
+        "lex_key": [
+          0,
+          -173.5,
+          2189.8
+        ],
+        "rank": 1.0,
+        "std_blocks": 11.21,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "cmaes_champion",
+        "lex_key": [
+          0,
+          -172.5,
+          2589.1
+        ],
+        "rank": 2.0,
+        "std_blocks": 11.94,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_d",
+        "lex_key": [
+          0,
+          -170.1,
+          2986.6
+        ],
+        "rank": 3.0,
+        "std_blocks": 11.36,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_b",
+        "lex_key": [
+          0,
+          -159.1,
+          2260.5
+        ],
+        "rank": 4.0,
+        "std_blocks": 8.14,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_c",
+        "lex_key": [
+          0,
+          -148.4,
+          2657.1
+        ],
+        "rank": 5.0,
+        "std_blocks": 36.86,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "sca_gphh_stage_a",
+        "lex_key": [
+          0,
+          -148.2,
+          2344.9
+        ],
+        "rank": 6.0,
+        "std_blocks": 7.66,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "pham_rule_based",
+        "lex_key": [
+          0,
+          -132.6,
+          1574.4
+        ],
+        "rank": 7.0,
+        "std_blocks": 32.01,
+        "n_seeds": 10
+      },
+      {
+        "strategy": "nearest_crane",
+        "lex_key": [
+          0,
+          -108.8,
+          1199.1
+        ],
+        "rank": 8.0,
+        "std_blocks": 5.61,
+        "n_seeds": 10
+      }
+    ]
+  },
+  "aggregate": {
+    "cmaes_champion": {
+      "train_avg_rank": 2.0,
+      "held_out_avg_rank": 1.3333333333333333
+    },
+    "nearest_crane": {
+      "train_avg_rank": 8.0,
+      "held_out_avg_rank": 8.0
+    },
+    "pham_rule_based": {
+      "train_avg_rank": 6.333333333333333,
+      "held_out_avg_rank": 7.0
+    },
+    "sca_gphh_stage_a": {
+      "train_avg_rank": 6.333333333333333,
+      "held_out_avg_rank": 6.0
+    },
+    "sca_gphh_stage_b": {
+      "train_avg_rank": 4.5,
+      "held_out_avg_rank": 5.0
+    },
+    "sca_gphh_stage_c": {
+      "train_avg_rank": 4.083333333333333,
+      "held_out_avg_rank": 4.0
+    },
+    "sca_gphh_stage_d": {
+      "train_avg_rank": 2.8333333333333335,
+      "held_out_avg_rank": 2.3333333333333335
+    },
+    "sca_gphh_stage_e": {
+      "train_avg_rank": 1.9166666666666667,
+      "held_out_avg_rank": 2.3333333333333335
+    }
+  }
+}

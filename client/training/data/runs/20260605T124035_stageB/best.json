@@ -1,0 +1,347 @@
+[
+  {
+    "rank": 0,
+    "tree2": "mul(add(add(min2(protected_div(dist_source, if_gt(0.8659728297247797, reach_count, 0.16211588753532213, buf_free)), buf_free), dist_source), abs(blocks_requested_in_buf)), add(dist_source, add(buf_free, add(dist_handover, dist_source))))",
+    "mean_blocks": 185.08333333333334,
+    "mean_parking": 2535.883333333333,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 207.0,
+        "errors": 0,
+        "parking": 2342.6
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 309.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 157.0,
+        "errors": 0,
+        "parking": 2121.6
+      },
+      "default_uniform_interleaved": {
+        "blocks": 164.0,
+        "errors": 0,
+        "parking": 3265.7
+      },
+      "empty_buffer": {
+        "blocks": 164.0,
+        "errors": 0,
+        "parking": 2995.4
+      },
+      "high_buffer": {
+        "blocks": 162.0,
+        "errors": 0,
+        "parking": 1451.6
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 164.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "large_vehicle": {
+        "blocks": 221.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 141.0,
+        "errors": 0,
+        "parking": 1355.3
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 131.0,
+        "errors": 0,
+        "parking": 1607.5
+      },
+      "saturation": {
+        "blocks": 247.0,
+        "errors": 0,
+        "parking": 3210.7
+      },
+      "shallow_stacks": {
+        "blocks": 154.0,
+        "errors": 0,
+        "parking": 1283.2
+      }
+    }
+  },
+  {
+    "rank": 1,
+    "tree2": "mul(add(dist_handover, if_gt(is_empty, max2(dist_handover, add(blocks_requested_in_buf, add(add(dist_source, mul(add(dist_source, add(dist_source, add(dist_handover, dist_source))), dist_handover)), blocks_requested_in_buf))), abs(if_gt(dist_handover, is_empty, dist_source, reach_count)), if_gt(buf_free, add(add(abs(mul(dist_source, dist_source)), dist_source), dist_source), dist_source, reach_count))), add(add(blocks_requested_in_buf, mul(-0.3812687577991687, dist_handover)), dist_source))",
+    "mean_blocks": 184.75,
+    "mean_parking": 2365.075,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 179.0,
+        "errors": 0,
+        "parking": 2541.1
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 290.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 162.0,
+        "errors": 0,
+        "parking": 2774.3
+      },
+      "default_uniform_interleaved": {
+        "blocks": 169.0,
+        "errors": 0,
+        "parking": 2093.1
+      },
+      "empty_buffer": {
+        "blocks": 186.0,
+        "errors": 0,
+        "parking": 2186.6
+      },
+      "high_buffer": {
+        "blocks": 159.0,
+        "errors": 0,
+        "parking": 1887.4
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 156.0,
+        "errors": 0,
+        "parking": 2818.7
+      },
+      "large_vehicle": {
+        "blocks": 208.0,
+        "errors": 0,
+        "parking": 2811.8
+      },
+      "quiet": {
+        "blocks": 131.0,
+        "errors": 0,
+        "parking": 864.4
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 146.0,
+        "errors": 0,
+        "parking": 1260.4
+      },
+      "saturation": {
+        "blocks": 247.0,
+        "errors": 0,
+        "parking": 3230.2
+      },
+      "shallow_stacks": {
+        "blocks": 184.0,
+        "errors": 0,
+        "parking": 2313.9
+      }
+    }
+  },
+  {
+    "rank": 2,
+    "tree2": "mul(add(add(min2(dist_source, buf_free), dist_source), abs(blocks_requested_in_buf)), add(add(add(is_empty, is_empty), abs(add(blocks_requested_in_buf, is_empty))), add(blocks_requested_in_buf, dist_source)))",
+    "mean_blocks": 184.5,
+    "mean_parking": 2369.7999999999997,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 208.0,
+        "errors": 0,
+        "parking": 2026.1
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 318.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 148.0,
+        "errors": 0,
+        "parking": 1995.1
+      },
+      "default_uniform_interleaved": {
+        "blocks": 168.0,
+        "errors": 0,
+        "parking": 3265.7
+      },
+      "empty_buffer": {
+        "blocks": 159.0,
+        "errors": 0,
+        "parking": 2103.7
+      },
+      "high_buffer": {
+        "blocks": 163.0,
+        "errors": 0,
+        "parking": 1656.4
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 155.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "large_vehicle": {
+        "blocks": 216.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 141.0,
+        "errors": 0,
+        "parking": 1601.8
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 131.0,
+        "errors": 0,
+        "parking": 1368.5
+      },
+      "saturation": {
+        "blocks": 248.0,
+        "errors": 0,
+        "parking": 2942.7
+      },
+      "shallow_stacks": {
+        "blocks": 159.0,
+        "errors": 0,
+        "parking": 680.6
+      }
+    }
+  },
+  {
+    "rank": 3,
+    "tree2": "mul(add(add(add(add(abs(mul(buf_free, dist_source)), dist_source), dist_source), dist_source), abs(blocks_requested_in_buf)), add(dist_source, add(dist_source, add(reach_count, dist_source))))",
+    "mean_blocks": 184.41666666666666,
+    "mean_parking": 2184.75,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 181.0,
+        "errors": 0,
+        "parking": 2345.4
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 297.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 156.0,
+        "errors": 0,
+        "parking": 1653.8
+      },
+      "default_uniform_interleaved": {
+        "blocks": 173.0,
+        "errors": 0,
+        "parking": 1985.0
+      },
+      "empty_buffer": {
+        "blocks": 174.0,
+        "errors": 0,
+        "parking": 1707.3
+      },
+      "high_buffer": {
+        "blocks": 156.0,
+        "errors": 0,
+        "parking": 1913.1
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 155.0,
+        "errors": 0,
+        "parking": 1339.0
+      },
+      "large_vehicle": {
+        "blocks": 216.0,
+        "errors": 0,
+        "parking": 3059.0
+      },
+      "quiet": {
+        "blocks": 128.0,
+        "errors": 0,
+        "parking": 775.0
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 144.0,
+        "errors": 0,
+        "parking": 1216.5
+      },
+      "saturation": {
+        "blocks": 253.0,
+        "errors": 0,
+        "parking": 3230.2
+      },
+      "shallow_stacks": {
+        "blocks": 180.0,
+        "errors": 0,
+        "parking": 3393.7
+      }
+    }
+  },
+  {
+    "rank": 4,
+    "tree2": "mul(add(add(min2(protected_div(blocks_requested_in_buf, blocks_requested_in_buf), buf_free), dist_source), dist_handover), add(add(dist_source, abs(add(blocks_requested_in_buf, abs(mul(blocks_requested_in_buf, dist_source))))), add(blocks_requested_in_buf, dist_source)))",
+    "mean_blocks": 184.33333333333334,
+    "mean_parking": 2474.0916666666667,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 204.0,
+        "errors": 0,
+        "parking": 3225.4
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 302.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 152.0,
+        "errors": 0,
+        "parking": 2158.9
+      },
+      "default_uniform_interleaved": {
+        "blocks": 158.0,
+        "errors": 0,
+        "parking": 3265.7
+      },
+      "empty_buffer": {
+        "blocks": 170.0,
+        "errors": 0,
+        "parking": 1765.8
+      },
+      "high_buffer": {
+        "blocks": 162.0,
+        "errors": 0,
+        "parking": 1459.7
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 161.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "large_vehicle": {
+        "blocks": 221.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 142.0,
+        "errors": 0,
+        "parking": 1647.8
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 131.0,
+        "errors": 0,
+        "parking": 1607.5
+      },
+      "saturation": {
+        "blocks": 248.0,
+        "errors": 0,
+        "parking": 2763.4
+      },
+      "shallow_stacks": {
+        "blocks": 161.0,
+        "errors": 0,
+        "parking": 997.9
+      }
+    }
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "rank": 0,
+    "w2": {
+      "dist_source": 5.629581,
+      "dist_handover": 0.293981,
+      "buf_free": 0.389349,
+      "is_empty": -0.213181,
+      "blocks_requested_in_buf": 2.180611,
+      "reach_count": -2.04625
+    },
+    "w4": {
+      "is_downstream": -1.868968,
+      "is_upstream": 1.769717,
+      "blocks_above": 0.157501,
+      "successor_count": -2.235552,
+      "move_age": -0.243037,
+      "pd_dist": 2.365934,
+      "nearest_crane_dist": -0.083771,
+      "total_moves": 2.54377
+    },
+    "w5": {
+      "dist_pickup": 2.553148,
+      "dist_dropoff": 0.42074,
+      "crane_pos_norm": 1.253326,
+      "crane_load": 0.197567,
+      "range_headroom": -3.771075,
+      "gap_to_other": -2.183565
+    },
+    "objective": -197.45382484567904,
+    "mean_blocks": 198.19444444444446,
+    "mean_parking": 2666.230555555556,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 224.33333333333334,
+        "errors": 0,
+        "parking": 3483.3333333333335
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 289,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 188,
+        "errors": 0,
+        "parking": 2090.8333333333335
+      },
+      "default_uniform_interleaved": {
+        "blocks": 184.66666666666666,
+        "errors": 0,
+        "parking": 3358.6
+      },
+      "empty_buffer": {
+        "blocks": 193.33333333333334,
+        "errors": 0,
+        "parking": 1505.5333333333333
+      },
+      "high_buffer": {
+        "blocks": 179.33333333333334,
+        "errors": 0,
+        "parking": 3412.3333333333335
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 171.33333333333334,
+        "errors": 0,
+        "parking": 3266.8
+      },
+      "large_vehicle": {
+        "blocks": 219,
+        "errors": 0,
+        "parking": 3354.0333333333333
+      },
+      "quiet": {
+        "blocks": 136,
+        "errors": 0,
+        "parking": 1619.6
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 144.33333333333334,
+        "errors": 0,
+        "parking": 1390.7
+      },
+      "saturation": {
+        "blocks": 263.6666666666667,
+        "errors": 0,
+        "parking": 3121.366666666667
+      },
+      "shallow_stacks": {
+        "blocks": 185.33333333333334,
+        "errors": 0,
+        "parking": 1792.6333333333334
+      }
+    }
+  },
+  {
+    "rank": 1,
+    "w2": {
+      "dist_source": 5.221026,
+      "dist_handover": 0.102232,
+      "buf_free": 0.408923,
+      "is_empty": -0.246379,
+      "blocks_requested_in_buf": 2.345838,
+      "reach_count": -1.761302
+    },
+    "w4": {
+      "is_downstream": -1.826064,
+      "is_upstream": 1.424313,
+      "blocks_above": -0.312007,
+      "successor_count": -1.802035,
+      "move_age": -0.478508,
+      "pd_dist": 2.410353,
+      "nearest_crane_dist": -0.183404,
+      "total_moves": 2.268295
+    },
+    "w5": {
+      "dist_pickup": 2.483793,
+      "dist_dropoff": 0.216843,
+      "crane_pos_norm": 1.37815,
+      "crane_load": 0.305681,
+      "range_headroom": -3.816302,
+      "gap_to_other": -2.263572
+    },
+    "objective": -197.10942978395062,
+    "mean_blocks": 197.86111111111111,
+    "mean_parking": 2706.052777777778,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 215.33333333333334,
+        "errors": 0,
+        "parking": 3094.5666666666666
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 282,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 186.33333333333334,
+        "errors": 0,
+        "parking": 2286.0666666666666
+      },
+      "default_uniform_interleaved": {
+        "blocks": 190.33333333333334,
+        "errors": 0,
+        "parking": 3446.7
+      },
+      "empty_buffer": {
+        "blocks": 194,
+        "errors": 0,
+        "parking": 1857.3999999999999
+      },
+      "high_buffer": {
+        "blocks": 171,
+        "errors": 0,
+        "parking": 3366.7
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 183.66666666666666,
+        "errors": 0,
+        "parking": 3470.3333333333335
+      },
+      "large_vehicle": {
+        "blocks": 218.66666666666666,
+        "errors": 0,
+        "parking": 2891.133333333333
+      },
+      "quiet": {
+        "blocks": 133.33333333333334,
+        "errors": 0,
+        "parking": 1658.4666666666667
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 146,
+        "errors": 0,
+        "parking": 1511.8
+      },
+      "saturation": {
+        "blocks": 269.6666666666667,
+        "errors": 0,
+        "parking": 3107.1666666666665
+      },
+      "shallow_stacks": {
+        "blocks": 184,
+        "errors": 0,
+        "parking": 2183.3
+      }
+    }
+  },
+  {
+    "rank": 2,
+    "w2": {
+      "dist_source": 5.376098,
+      "dist_handover": 0.212493,
+      "buf_free": 0.258859,
+      "is_empty": -0.235533,
+      "blocks_requested_in_buf": 2.115123,
+      "reach_count": -1.759686
+    },
+    "w4": {
+      "is_downstream": -1.67115,
+      "is_upstream": 1.44838,
+      "blocks_above": 0.270363,
+      "successor_count": -1.894302,
+      "move_age": -0.412092,
+      "pd_dist": 2.466444,
+      "nearest_crane_dist": -0.060245,
+      "total_moves": 2.658486
+    },
+    "w5": {
+      "dist_pickup": 2.628422,
+      "dist_dropoff": 0.63437,
+      "crane_pos_norm": 1.432747,
+      "crane_load": 0.228461,
+      "range_headroom": -3.329674,
+      "gap_to_other": -2.533957
+    },
+    "objective": -196.94197916666667,
+    "mean_blocks": 197.69444444444446,
+    "mean_parking": 2708.875,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 219.66666666666666,
+        "errors": 0,
+        "parking": 3215.9666666666667
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 284,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 182.33333333333334,
+        "errors": 0,
+        "parking": 2640.9666666666667
+      },
+      "default_uniform_interleaved": {
+        "blocks": 190.33333333333334,
+        "errors": 0,
+        "parking": 2491.0333333333333
+      },
+      "empty_buffer": {
+        "blocks": 192.66666666666666,
+        "errors": 0,
+        "parking": 2038.3666666666666
+      },
+      "high_buffer": {
+        "blocks": 178.33333333333334,
+        "errors": 0,
+        "parking": 3379.3
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 178.33333333333334,
+        "errors": 0,
+        "parking": 3114.2
+      },
+      "large_vehicle": {
+        "blocks": 220.33333333333334,
+        "errors": 0,
+        "parking": 2934.8333333333335
+      },
+      "quiet": {
+        "blocks": 136,
+        "errors": 0,
+        "parking": 1529.9333333333334
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 146,
+        "errors": 0,
+        "parking": 2116.9666666666667
+      },
+      "saturation": {
+        "blocks": 260.3333333333333,
+        "errors": 0,
+        "parking": 3427.0
+      },
+      "shallow_stacks": {
+        "blocks": 184,
+        "errors": 0,
+        "parking": 2018.9333333333334
+      }
+    }
+  },
+  {
+    "rank": 3,
+    "w2": {
+      "dist_source": 5.284033,
+      "dist_handover": 0.354963,
+      "buf_free": 0.465841,
+      "is_empty": -0.252906,
+      "blocks_requested_in_buf": 2.139697,
+      "reach_count": -1.605601
+    },
+    "w4": {
+      "is_downstream": -1.358559,
+      "is_upstream": 1.684557,
+      "blocks_above": 0.095229,
+      "successor_count": -1.700734,
+      "move_age": -0.351245,
+      "pd_dist": 2.140475,
+      "nearest_crane_dist": -0.207564,
+      "total_moves": 2.458865
+    },
+    "w5": {
+      "dist_pickup": 2.600634,
+      "dist_dropoff": 0.438492,
+      "crane_pos_norm": 1.219334,
+      "crane_load": 0.306182,
+      "range_headroom": -3.366368,
+      "gap_to_other": -2.21907
+    },
+    "objective": -196.85476311728394,
+    "mean_blocks": 197.63888888888889,
+    "mean_parking": 2822.8527777777776,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 226.66666666666666,
+        "errors": 0,
+        "parking": 3403.766666666667
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 288.3333333333333,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 180.33333333333334,
+        "errors": 0,
+        "parking": 3177.8
+      },
+      "default_uniform_interleaved": {
+        "blocks": 185,
+        "errors": 0,
+        "parking": 3445.733333333333
+      },
+      "empty_buffer": {
+        "blocks": 195.66666666666666,
+        "errors": 0,
+        "parking": 1394.0
+      },
+      "high_buffer": {
+        "blocks": 176,
+        "errors": 0,
+        "parking": 3395.1
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 180.66666666666666,
+        "errors": 0,
+        "parking": 3476.6666666666665
+      },
+      "large_vehicle": {
+        "blocks": 215.33333333333334,
+        "errors": 0,
+        "parking": 3262.866666666667
+      },
+      "quiet": {
+        "blocks": 135.66666666666666,
+        "errors": 0,
+        "parking": 1617.8
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 147,
+        "errors": 0,
+        "parking": 1307.3333333333333
+      },
+      "saturation": {
+        "blocks": 260.6666666666667,
+        "errors": 0,
+        "parking": 3266.9333333333334
+      },
+      "shallow_stacks": {
+        "blocks": 180.33333333333334,
+        "errors": 0,
+        "parking": 2527.233333333333
+      }
+    }
+  },
+  {
+    "rank": 4,
+    "w2": {
+      "dist_source": 5.492534,
+      "dist_handover": -0.075198,
+      "buf_free": 0.32175,
+      "is_empty": -0.232681,
+      "blocks_requested_in_buf": 1.987341,
+      "reach_count": -1.716484
+    },
+    "w4": {
+      "is_downstream": -1.851819,
+      "is_upstream": 1.569916,
+      "blocks_above": -0.062209,
+      "successor_count": -1.661034,
+      "move_age": -0.293044,
+      "pd_dist": 2.349251,
+      "nearest_crane_dist": 0.001366,
+      "total_moves": 2.496848
+    },
+    "w5": {
+      "dist_pickup": 2.353881,
+      "dist_dropoff": 0.034462,
+      "crane_pos_norm": 1.409811,
+      "crane_load": 0.274693,
+      "range_headroom": -3.007128,
+      "gap_to_other": -2.465803
+    },
+    "objective": -196.75304552469134,
+    "mean_blocks": 197.5,
+    "mean_parking": 2689.036111111111,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 219,
+        "errors": 0,
+        "parking": 3273.233333333333
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 287,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 186.33333333333334,
+        "errors": 0,
+        "parking": 2795.633333333333
+      },
+      "default_uniform_interleaved": {
+        "blocks": 186.33333333333334,
+        "errors": 0,
+        "parking": 2975.366666666667
+      },
+      "empty_buffer": {
+        "blocks": 194.33333333333334,
+        "errors": 0,
+        "parking": 1296.6333333333332
+      },
+      "high_buffer": {
+        "blocks": 178.33333333333334,
+        "errors": 0,
+        "parking": 3577.733333333333
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 172,
+        "errors": 0,
+        "parking": 3444.6666666666665
+      },
+      "large_vehicle": {
+        "blocks": 217.33333333333334,
+        "errors": 0,
+        "parking": 3008.3
+      },
+      "quiet": {
+        "blocks": 136.33333333333334,
+        "errors": 0,
+        "parking": 1583.1333333333332
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 145,
+        "errors": 0,
+        "parking": 1273.3
+      },
+      "saturation": {
+        "blocks": 262.3333333333333,
+        "errors": 0,
+        "parking": 3386.0
+      },
+      "shallow_stacks": {
+        "blocks": 185.66666666666666,
+        "errors": 0,
+        "parking": 2055.4333333333334
+      }
+    }
+  }
+]

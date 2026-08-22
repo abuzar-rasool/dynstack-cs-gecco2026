@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+
+**/bin/
+**/obj/
+
+client/training/data/runs/*_smoke/
+
+.DS_Store

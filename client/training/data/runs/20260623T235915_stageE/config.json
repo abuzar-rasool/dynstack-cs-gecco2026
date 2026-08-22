@@ -1,0 +1,76 @@
+{
+  "stage": "E",
+  "strategy": "gp_stage_de",
+  "tree_keys": [
+    "tree2",
+    "tree4",
+    "tree5"
+  ],
+  "extra_params": {
+    "digout": "True",
+    "headline_fix": "True"
+  },
+  "seeds_per_gen": 3,
+  "smoke": false,
+  "master_seed": 12345,
+  "pop_size": 80,
+  "max_generations": 100,
+  "patience": 8,
+  "crossover_rate": 0.7,
+  "mutation_rate": 0.2,
+  "max_height": 17,
+  "workers": 32,
+  "warm_start_copies": 4,
+  "hall_of_fame_size": 15,
+  "confirm_seeds": 10,
+  "train_scenarios": [
+    "busy",
+    "busy_uniform_interleaved",
+    "default",
+    "default_uniform_interleaved",
+    "empty_buffer",
+    "high_buffer",
+    "high_buffer_uniform_interleaved",
+    "large_vehicle",
+    "quiet",
+    "quiet_uniform_interleaved",
+    "saturation",
+    "shallow_stacks"
+  ],
+  "held_out_scenarios": [
+    "comp_scenario_1",
+    "comp_scenario_2",
+    "comp_scenario_3"
+  ],
+  "features_hook2": [
+    "dist_source",
+    "dist_handover",
+    "buf_free",
+    "is_empty",
+    "blocks_requested_in_buf",
+    "reach_count"
+  ],
+  "features_hook4": [
+    "is_downstream",
+    "is_upstream",
+    "blocks_above",
+    "successor_count",
+    "move_age",
+    "pd_dist",
+    "nearest_crane_dist",
+    "total_moves"
+  ],
+  "features_hook5": [
+    "dist_pickup",
+    "dist_dropoff",
+    "crane_pos_norm",
+    "crane_load",
+    "range_headroom",
+    "gap_to_other"
+  ],
+  "warm_start_trees": {
+    "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(abs(dist_source), abs(dist_source)))), add(blocks_requested_in_buf, dist_source)))))), add(blocks_requested_in_buf, dist_source)))), add(add(blocks_requested_in_buf, abs(dist_source)), add(dist_source, dist_source)))",
+    "tree4": "sub(pd_dist, max2(abs(max2(nearest_crane_dist, max2(abs(max2(nearest_crane_dist, is_upstream)), nearest_crane_dist))), nearest_crane_dist))",
+    "tree5": "sub(mul(mul(dist_dropoff, range_headroom), range_headroom), range_headroom)"
+  }
+}

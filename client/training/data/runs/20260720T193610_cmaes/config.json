@@ -1,0 +1,79 @@
+{
+  "smoke": false,
+  "master_seed": 54321,
+  "pop_size": 20,
+  "max_generations": 200,
+  "sigma0": 0.3,
+  "hall_of_fame_size": 5,
+  "denoising_seeds": 3,
+  "confirm_seeds": 10,
+  "workers": 32,
+  "genome_dim": 20,
+  "features_hook2": [
+    "dist_source",
+    "dist_handover",
+    "buf_free",
+    "is_empty",
+    "blocks_requested_in_buf",
+    "reach_count"
+  ],
+  "features_hook4": [
+    "is_downstream",
+    "is_upstream",
+    "blocks_above",
+    "successor_count",
+    "move_age",
+    "pd_dist",
+    "nearest_crane_dist",
+    "total_moves"
+  ],
+  "features_hook5": [
+    "dist_pickup",
+    "dist_dropoff",
+    "crane_pos_norm",
+    "crane_load",
+    "range_headroom",
+    "gap_to_other"
+  ],
+  "warm_start": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "train_scenarios": [
+    "busy",
+    "busy_uniform_interleaved",
+    "default",
+    "default_uniform_interleaved",
+    "empty_buffer",
+    "high_buffer",
+    "high_buffer_uniform_interleaved",
+    "large_vehicle",
+    "quiet",
+    "quiet_uniform_interleaved",
+    "saturation",
+    "shallow_stacks"
+  ],
+  "held_out_scenarios": [
+    "comp_scenario_1",
+    "comp_scenario_2",
+    "comp_scenario_3"
+  ]
+}

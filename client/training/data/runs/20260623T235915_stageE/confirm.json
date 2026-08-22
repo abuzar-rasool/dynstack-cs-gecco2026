@@ -1,0 +1,1640 @@
+{
+  "candidates": {
+    "hof0": {
+      "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(dist_source)), buf_free))), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(add(is_upstream, total_moves)), max2(abs(max2(nearest_crane_dist, max2(abs(max2(nearest_crane_dist, sub(max2(abs(max2(pd_dist, nearest_crane_dist)), max2(nearest_crane_dist, protected_div(is_upstream, mul(is_downstream, is_upstream)))), sub(pd_dist, move_age)))), nearest_crane_dist))), protected_div(abs(nearest_crane_dist), mul(-0.42460488378712213, is_downstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof1": {
+      "tree2": "mul(add(add(abs(dist_source), abs(dist_source)), add(blocks_requested_in_buf, dist_handover)), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(max2(pd_dist, nearest_crane_dist)), max2(abs(max2(nearest_crane_dist, max2(abs(pd_dist), nearest_crane_dist))), protected_div(abs(pd_dist), mul(is_downstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof2": {
+      "tree2": "mul(add(add(abs(dist_source), abs(dist_source)), add(blocks_requested_in_buf, dist_handover)), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(max2(pd_dist, nearest_crane_dist)), max2(abs(max2(nearest_crane_dist, max2(pd_dist, nearest_crane_dist))), protected_div(abs(pd_dist), mul(is_downstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof3": {
+      "tree2": "mul(add(add(abs(dist_source), abs(dist_source)), add(blocks_requested_in_buf, dist_handover)), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(max2(pd_dist, nearest_crane_dist)), max2(abs(max2(nearest_crane_dist, max2(abs(pd_dist), nearest_crane_dist))), protected_div(abs(abs(pd_dist)), mul(is_downstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof4": {
+      "tree2": "mul(add(add(abs(dist_source), abs(dist_source)), add(blocks_requested_in_buf, dist_handover)), add(add(blocks_requested_in_buf, abs(dist_source)), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source)))",
+      "tree4": "sub(pd_dist, max2(abs(max2(pd_dist, nearest_crane_dist)), max2(abs(max2(nearest_crane_dist, max2(abs(pd_dist), is_downstream))), protected_div(abs(pd_dist), mul(is_downstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof5": {
+      "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(abs(dist_source), abs(dist_source)))), add(blocks_requested_in_buf, dist_source)))), add(blocks_requested_in_buf, dist_source)))))), add(blocks_requested_in_buf, dist_source)))), add(add(blocks_requested_in_buf, abs(dist_source)), add(dist_source, dist_source)))",
+      "tree4": "sub(pd_dist, max2(abs(max2(abs(max2(nearest_crane_dist, max2(abs(max2(nearest_crane_dist, is_upstream)), nearest_crane_dist))), max2(abs(max2(nearest_crane_dist, is_upstream)), nearest_crane_dist))), nearest_crane_dist))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof6": {
+      "tree2": "mul(add(add(dist_source, abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(add(abs(dist_source), abs(abs(dist_source))), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(abs(dist_source), abs(dist_source)))), add(blocks_requested_in_buf, dist_source)))))), add(blocks_requested_in_buf, dist_source)))), add(add(blocks_requested_in_buf, abs(dist_source)), add(dist_source, dist_source)))",
+      "tree4": "sub(pd_dist, max2(abs(max2(nearest_crane_dist, max2(abs(max2(nearest_crane_dist, is_upstream)), nearest_crane_dist))), nearest_crane_dist))",
+      "tree5": "sub(mul(mul(dist_dropoff, range_headroom), dist_dropoff), range_headroom)"
+    },
+    "hof7": {
+      "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(add(abs(dist_source), abs(blocks_requested_in_buf)), add(blocks_requested_in_buf, add(add(dist_source, abs(dist_source)), buf_free))))), add(blocks_requested_in_buf, abs(dist_source))))), add(add(dist_source, abs(add(blocks_requested_in_buf, abs(blocks_requested_in_buf)))), dist_source))",
+      "tree4": "sub(max2(is_upstream, max2(abs(pd_dist), nearest_crane_dist)), max2(nearest_crane_dist, max2(abs(nearest_crane_dist), protected_div(abs(pd_dist), abs(is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof8": {
+      "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(add(abs(dist_source), abs(blocks_requested_in_buf)), add(blocks_requested_in_buf, add(add(dist_source, abs(dist_source)), buf_free))))), add(blocks_requested_in_buf, abs(dist_source))))), add(add(abs(add(blocks_requested_in_buf, abs(dist_source))), abs(add(blocks_requested_in_buf, abs(blocks_requested_in_buf)))), dist_source))",
+      "tree4": "sub(max2(pd_dist, max2(abs(pd_dist), nearest_crane_dist)), max2(nearest_crane_dist, max2(abs(max2(nearest_crane_dist, is_upstream)), protected_div(abs(pd_dist), abs(is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof9": {
+      "tree2": "mul(add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(dist_source)), add(add(add(abs(blocks_requested_in_buf), abs(dist_source)), add(blocks_requested_in_buf, add(blocks_requested_in_buf, abs(add(blocks_requested_in_buf, abs(blocks_requested_in_buf)))))), abs(dist_source)))), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(max2(nearest_crane_dist, nearest_crane_dist)), max2(abs(max2(nearest_crane_dist, max2(abs(nearest_crane_dist), nearest_crane_dist))), protected_div(nearest_crane_dist, mul(is_upstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof10": {
+      "tree2": "mul(add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(dist_source)), add(blocks_requested_in_buf, abs(abs(dist_source))))), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(max2(nearest_crane_dist, nearest_crane_dist)), max2(abs(max2(pd_dist, max2(abs(nearest_crane_dist), nearest_crane_dist))), protected_div(nearest_crane_dist, mul(is_downstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof11": {
+      "tree2": "mul(add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(dist_source)), add(blocks_requested_in_buf, abs(dist_source)))), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(max2(nearest_crane_dist, nearest_crane_dist)), max2(abs(max2(nearest_crane_dist, max2(abs(nearest_crane_dist), 0.42664865498277615))), protected_div(nearest_crane_dist, mul(is_downstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof12": {
+      "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), abs(dist_source)), buf_free))))), add(blocks_requested_in_buf, abs(dist_source))))), add(add(blocks_requested_in_buf, abs(add(blocks_requested_in_buf, abs(blocks_requested_in_buf)))), dist_source))",
+      "tree4": "sub(max2(pd_dist, max2(abs(pd_dist), nearest_crane_dist)), max2(nearest_crane_dist, max2(abs(max2(nearest_crane_dist, max2(is_downstream, max2(abs(pd_dist), nearest_crane_dist)))), protected_div(abs(pd_dist), mul(is_downstream, is_upstream)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    },
+    "hof13": {
+      "tree2": "mul(add(dist_source, blocks_requested_in_buf), add(add(blocks_requested_in_buf, abs(dist_source)), add(dist_source, dist_source)))",
+      "tree4": "sub(pd_dist, is_upstream)",
+      "tree5": "sub(mul(dist_dropoff, mul(dist_dropoff, range_headroom)), range_headroom)"
+    },
+    "hof14": {
+      "tree2": "mul(add(add(abs(dist_source), abs(is_empty)), add(blocks_requested_in_buf, add(add(abs(blocks_requested_in_buf), dist_source), buf_free))), add(add(blocks_requested_in_buf, abs(dist_source)), dist_source))",
+      "tree4": "sub(pd_dist, max2(abs(add(is_upstream, total_moves)), max2(abs(max2(nearest_crane_dist, max2(abs(max2(nearest_crane_dist, sub(max2(abs(max2(pd_dist, nearest_crane_dist)), max2(nearest_crane_dist, protected_div(is_upstream, mul(is_downstream, is_upstream)))), sub(pd_dist, move_age)))), nearest_crane_dist))), protected_div(abs(nearest_crane_dist), mul(is_downstream, pd_dist)))))",
+      "tree5": "sub(mul(dist_dropoff, range_headroom), range_headroom)"
+    }
+  },
+  "selected": {
+    "label": "hof13",
+    "tree2": "mul(add(dist_source, blocks_requested_in_buf), add(add(blocks_requested_in_buf, abs(dist_source)), add(dist_source, dist_source)))",
+    "tree4": "sub(pd_dist, is_upstream)",
+    "tree5": "sub(mul(dist_dropoff, mul(dist_dropoff, range_headroom)), range_headroom)",
+    "blocks": 177.20000000000002,
+    "parking": 1937.1733333333332,
+    "errors": 0
+  },
+  "held_out_means": {
+    "hof0": {
+      "blocks": 176.33333333333334,
+      "parking": 1956.8799999999999,
+      "errors": 0
+    },
+    "hof1": {
+      "blocks": 176.33333333333334,
+      "parking": 1900.7733333333333,
+      "errors": 0
+    },
+    "hof2": {
+      "blocks": 176.33333333333334,
+      "parking": 1900.7733333333333,
+      "errors": 0
+    },
+    "hof3": {
+      "blocks": 176.33333333333334,
+      "parking": 1900.7733333333333,
+      "errors": 0
+    },
+    "hof4": {
+      "blocks": 176.33333333333334,
+      "parking": 1900.7733333333333,
+      "errors": 0
+    },
+    "hof5": {
+      "blocks": 176.13333333333333,
+      "parking": 1854.9566666666667,
+      "errors": 0
+    },
+    "hof6": {
+      "blocks": 175.76666666666668,
+      "parking": 1918.47,
+      "errors": 0
+    },
+    "hof7": {
+      "blocks": 176.43333333333334,
+      "parking": 2107.24,
+      "errors": 0
+    },
+    "hof8": {
+      "blocks": 176.43333333333334,
+      "parking": 2107.24,
+      "errors": 0
+    },
+    "hof9": {
+      "blocks": 175.96666666666667,
+      "parking": 2032.73,
+      "errors": 0
+    },
+    "hof10": {
+      "blocks": 175.96666666666667,
+      "parking": 2032.73,
+      "errors": 0
+    },
+    "hof11": {
+      "blocks": 175.96666666666667,
+      "parking": 2032.73,
+      "errors": 0
+    },
+    "hof12": {
+      "blocks": 175.73333333333332,
+      "parking": 2047.98,
+      "errors": 0
+    },
+    "hof13": {
+      "blocks": 177.20000000000002,
+      "parking": 1937.1733333333332,
+      "errors": 0
+    },
+    "hof14": {
+      "blocks": 176.6,
+      "parking": 1881.41,
+      "errors": 0
+    }
+  },
+  "ranks": {
+    "hof0": {
+      "per_scenario_ranks": {
+        "busy": 1.0,
+        "busy_uniform_interleaved": 3.0,
+        "comp_scenario_1": 9.0,
+        "comp_scenario_2": 6.0,
+        "comp_scenario_3": 13.0,
+        "default": 1.0,
+        "default_uniform_interleaved": 4.0,
+        "empty_buffer": 14.0,
+        "high_buffer": 13.0,
+        "high_buffer_uniform_interleaved": 9.0,
+        "large_vehicle": 15.0,
+        "quiet": 3.0,
+        "quiet_uniform_interleaved": 11.0,
+        "saturation": 10.0,
+        "shallow_stacks": 15.0
+      },
+      "train_avg_rank": 8.25,
+      "held_out_avg_rank": 9.333333333333334
+    },
+    "hof1": {
+      "per_scenario_ranks": {
+        "busy": 13.5,
+        "busy_uniform_interleaved": 7.5,
+        "comp_scenario_1": 12.5,
+        "comp_scenario_2": 3.5,
+        "comp_scenario_3": 6.5,
+        "default": 11.5,
+        "default_uniform_interleaved": 11.5,
+        "empty_buffer": 2.5,
+        "high_buffer": 5.5,
+        "high_buffer_uniform_interleaved": 13.5,
+        "large_vehicle": 5.5,
+        "quiet": 9.5,
+        "quiet_uniform_interleaved": 7.5,
+        "saturation": 2.5,
+        "shallow_stacks": 2.5
+      },
+      "train_avg_rank": 7.75,
+      "held_out_avg_rank": 7.5
+    },
+    "hof2": {
+      "per_scenario_ranks": {
+        "busy": 13.5,
+        "busy_uniform_interleaved": 7.5,
+        "comp_scenario_1": 12.5,
+        "comp_scenario_2": 3.5,
+        "comp_scenario_3": 6.5,
+        "default": 11.5,
+        "default_uniform_interleaved": 11.5,
+        "empty_buffer": 2.5,
+        "high_buffer": 5.5,
+        "high_buffer_uniform_interleaved": 13.5,
+        "large_vehicle": 5.5,
+        "quiet": 9.5,
+        "quiet_uniform_interleaved": 7.5,
+        "saturation": 2.5,
+        "shallow_stacks": 2.5
+      },
+      "train_avg_rank": 7.75,
+      "held_out_avg_rank": 7.5
+    },
+    "hof3": {
+      "per_scenario_ranks": {
+        "busy": 13.5,
+        "busy_uniform_interleaved": 7.5,
+        "comp_scenario_1": 12.5,
+        "comp_scenario_2": 3.5,
+        "comp_scenario_3": 6.5,
+        "default": 11.5,
+        "default_uniform_interleaved": 11.5,
+        "empty_buffer": 2.5,
+        "high_buffer": 5.5,
+        "high_buffer_uniform_interleaved": 13.5,
+        "large_vehicle": 5.5,
+        "quiet": 9.5,
+        "quiet_uniform_interleaved": 7.5,
+        "saturation": 2.5,
+        "shallow_stacks": 2.5
+      },
+      "train_avg_rank": 7.75,
+      "held_out_avg_rank": 7.5
+    },
+    "hof4": {
+      "per_scenario_ranks": {
+        "busy": 13.5,
+        "busy_uniform_interleaved": 7.5,
+        "comp_scenario_1": 12.5,
+        "comp_scenario_2": 3.5,
+        "comp_scenario_3": 6.5,
+        "default": 11.5,
+        "default_uniform_interleaved": 11.5,
+        "empty_buffer": 2.5,
+        "high_buffer": 5.5,
+        "high_buffer_uniform_interleaved": 13.5,
+        "large_vehicle": 5.5,
+        "quiet": 9.5,
+        "quiet_uniform_interleaved": 7.5,
+        "saturation": 2.5,
+        "shallow_stacks": 2.5
+      },
+      "train_avg_rank": 7.75,
+      "held_out_avg_rank": 7.5
+    },
+    "hof5": {
+      "per_scenario_ranks": {
+        "busy": 10.0,
+        "busy_uniform_interleaved": 4.0,
+        "comp_scenario_1": 10.0,
+        "comp_scenario_2": 7.0,
+        "comp_scenario_3": 15.0,
+        "default": 15.0,
+        "default_uniform_interleaved": 15.0,
+        "empty_buffer": 12.0,
+        "high_buffer": 9.0,
+        "high_buffer_uniform_interleaved": 5.0,
+        "large_vehicle": 12.0,
+        "quiet": 1.0,
+        "quiet_uniform_interleaved": 13.0,
+        "saturation": 8.0,
+        "shallow_stacks": 9.0
+      },
+      "train_avg_rank": 9.416666666666666,
+      "held_out_avg_rank": 10.666666666666666
+    },
+    "hof6": {
+      "per_scenario_ranks": {
+        "busy": 5.0,
+        "busy_uniform_interleaved": 5.0,
+        "comp_scenario_1": 15.0,
+        "comp_scenario_2": 8.0,
+        "comp_scenario_3": 12.0,
+        "default": 6.0,
+        "default_uniform_interleaved": 14.0,
+        "empty_buffer": 15.0,
+        "high_buffer": 8.0,
+        "high_buffer_uniform_interleaved": 11.0,
+        "large_vehicle": 11.0,
+        "quiet": 2.0,
+        "quiet_uniform_interleaved": 4.0,
+        "saturation": 14.0,
+        "shallow_stacks": 13.0
+      },
+      "train_avg_rank": 9.0,
+      "held_out_avg_rank": 11.666666666666666
+    },
+    "hof7": {
+      "per_scenario_ranks": {
+        "busy": 3.5,
+        "busy_uniform_interleaved": 10.5,
+        "comp_scenario_1": 4.5,
+        "comp_scenario_2": 13.5,
+        "comp_scenario_3": 1.5,
+        "default": 8.5,
+        "default_uniform_interleaved": 5.5,
+        "empty_buffer": 5.5,
+        "high_buffer": 14.5,
+        "high_buffer_uniform_interleaved": 6.5,
+        "large_vehicle": 13.5,
+        "quiet": 13.5,
+        "quiet_uniform_interleaved": 14.5,
+        "saturation": 5.5,
+        "shallow_stacks": 5.5
+      },
+      "train_avg_rank": 8.916666666666666,
+      "held_out_avg_rank": 6.5
+    },
+    "hof8": {
+      "per_scenario_ranks": {
+        "busy": 3.5,
+        "busy_uniform_interleaved": 10.5,
+        "comp_scenario_1": 4.5,
+        "comp_scenario_2": 13.5,
+        "comp_scenario_3": 1.5,
+        "default": 8.5,
+        "default_uniform_interleaved": 5.5,
+        "empty_buffer": 5.5,
+        "high_buffer": 14.5,
+        "high_buffer_uniform_interleaved": 6.5,
+        "large_vehicle": 13.5,
+        "quiet": 13.5,
+        "quiet_uniform_interleaved": 14.5,
+        "saturation": 5.5,
+        "shallow_stacks": 5.5
+      },
+      "train_avg_rank": 8.916666666666666,
+      "held_out_avg_rank": 6.5
+    },
+    "hof9": {
+      "per_scenario_ranks": {
+        "busy": 8.0,
+        "busy_uniform_interleaved": 13.5,
+        "comp_scenario_1": 7.0,
+        "comp_scenario_2": 11.0,
+        "comp_scenario_3": 10.0,
+        "default": 3.0,
+        "default_uniform_interleaved": 8.0,
+        "empty_buffer": 9.0,
+        "high_buffer": 2.0,
+        "high_buffer_uniform_interleaved": 2.0,
+        "large_vehicle": 2.0,
+        "quiet": 5.0,
+        "quiet_uniform_interleaved": 2.0,
+        "saturation": 12.0,
+        "shallow_stacks": 11.0
+      },
+      "train_avg_rank": 6.458333333333333,
+      "held_out_avg_rank": 9.333333333333334
+    },
+    "hof10": {
+      "per_scenario_ranks": {
+        "busy": 8.0,
+        "busy_uniform_interleaved": 13.5,
+        "comp_scenario_1": 7.0,
+        "comp_scenario_2": 11.0,
+        "comp_scenario_3": 10.0,
+        "default": 3.0,
+        "default_uniform_interleaved": 8.0,
+        "empty_buffer": 9.0,
+        "high_buffer": 2.0,
+        "high_buffer_uniform_interleaved": 2.0,
+        "large_vehicle": 2.0,
+        "quiet": 5.0,
+        "quiet_uniform_interleaved": 2.0,
+        "saturation": 12.0,
+        "shallow_stacks": 11.0
+      },
+      "train_avg_rank": 6.458333333333333,
+      "held_out_avg_rank": 9.333333333333334
+    },
+    "hof11": {
+      "per_scenario_ranks": {
+        "busy": 8.0,
+        "busy_uniform_interleaved": 13.5,
+        "comp_scenario_1": 7.0,
+        "comp_scenario_2": 11.0,
+        "comp_scenario_3": 10.0,
+        "default": 3.0,
+        "default_uniform_interleaved": 8.0,
+        "empty_buffer": 9.0,
+        "high_buffer": 2.0,
+        "high_buffer_uniform_interleaved": 2.0,
+        "large_vehicle": 2.0,
+        "quiet": 5.0,
+        "quiet_uniform_interleaved": 2.0,
+        "saturation": 12.0,
+        "shallow_stacks": 11.0
+      },
+      "train_avg_rank": 6.458333333333333,
+      "held_out_avg_rank": 9.333333333333334
+    },
+    "hof12": {
+      "per_scenario_ranks": {
+        "busy": 6.0,
+        "busy_uniform_interleaved": 1.0,
+        "comp_scenario_1": 2.0,
+        "comp_scenario_2": 15.0,
+        "comp_scenario_3": 4.0,
+        "default": 7.0,
+        "default_uniform_interleaved": 3.0,
+        "empty_buffer": 13.0,
+        "high_buffer": 12.0,
+        "high_buffer_uniform_interleaved": 8.0,
+        "large_vehicle": 8.0,
+        "quiet": 15.0,
+        "quiet_uniform_interleaved": 10.0,
+        "saturation": 7.0,
+        "shallow_stacks": 8.0
+      },
+      "train_avg_rank": 8.166666666666666,
+      "held_out_avg_rank": 7.0
+    },
+    "hof13": {
+      "per_scenario_ranks": {
+        "busy": 11.0,
+        "busy_uniform_interleaved": 13.5,
+        "comp_scenario_1": 3.0,
+        "comp_scenario_2": 1.0,
+        "comp_scenario_3": 3.0,
+        "default": 14.0,
+        "default_uniform_interleaved": 2.0,
+        "empty_buffer": 7.0,
+        "high_buffer": 11.0,
+        "high_buffer_uniform_interleaved": 4.0,
+        "large_vehicle": 10.0,
+        "quiet": 12.0,
+        "quiet_uniform_interleaved": 5.0,
+        "saturation": 15.0,
+        "shallow_stacks": 7.0
+      },
+      "train_avg_rank": 9.291666666666666,
+      "held_out_avg_rank": 2.3333333333333335
+    },
+    "hof14": {
+      "per_scenario_ranks": {
+        "busy": 2.0,
+        "busy_uniform_interleaved": 2.0,
+        "comp_scenario_1": 1.0,
+        "comp_scenario_2": 9.0,
+        "comp_scenario_3": 14.0,
+        "default": 5.0,
+        "default_uniform_interleaved": 1.0,
+        "empty_buffer": 11.0,
+        "high_buffer": 10.0,
+        "high_buffer_uniform_interleaved": 10.0,
+        "large_vehicle": 9.0,
+        "quiet": 7.0,
+        "quiet_uniform_interleaved": 12.0,
+        "saturation": 9.0,
+        "shallow_stacks": 14.0
+      },
+      "train_avg_rank": 7.666666666666667,
+      "held_out_avg_rank": 8.0
+    }
+  },
+  "kpis": {
+    "hof0": {
+      "busy": {
+        "errors": 0,
+        "blocks": 215.2,
+        "parking": 2844.85
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 292.1,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 187.1,
+        "parking": 2335.41
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 182.2,
+        "parking": 2338.03
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 182.3,
+        "parking": 1686.28
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 166.5,
+        "parking": 2630.01
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 171.8,
+        "parking": 2770.81
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 217.7,
+        "parking": 3393.06
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.8,
+        "parking": 1217.24
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.6,
+        "parking": 1119.35
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 263.7,
+        "parking": 3393.19
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 172.8,
+        "parking": 2643.91
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 178,
+        "parking": 2228.47
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180.1,
+        "parking": 2038.81
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 170.9,
+        "parking": 1603.3600000000001
+      }
+    },
+    "hof1": {
+      "busy": {
+        "errors": 0,
+        "blocks": 210.1,
+        "parking": 2971.36
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 290,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 183.3,
+        "parking": 2605.23
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 181.8,
+        "parking": 2302.37
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 186.1,
+        "parking": 1986.83
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 169.2,
+        "parking": 2829.64
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 169.4,
+        "parking": 2910.93
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 224.2,
+        "parking": 3490.21
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.2,
+        "parking": 996.25
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.8,
+        "parking": 1230.55
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 267.4,
+        "parking": 3423.31
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 176.7,
+        "parking": 2560.7400000000002
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 177.4,
+        "parking": 2014.33
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180.2,
+        "parking": 2179.12
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.4,
+        "parking": 1508.8700000000001
+      }
+    },
+    "hof2": {
+      "busy": {
+        "errors": 0,
+        "blocks": 210.1,
+        "parking": 2971.36
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 290,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 183.3,
+        "parking": 2605.23
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 181.8,
+        "parking": 2302.37
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 186.1,
+        "parking": 1986.83
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 169.2,
+        "parking": 2829.64
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 169.4,
+        "parking": 2910.93
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 224.2,
+        "parking": 3490.21
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.2,
+        "parking": 996.25
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.8,
+        "parking": 1230.55
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 267.4,
+        "parking": 3423.31
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 176.7,
+        "parking": 2560.7400000000002
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 177.4,
+        "parking": 2014.33
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180.2,
+        "parking": 2179.12
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.4,
+        "parking": 1508.8700000000001
+      }
+    },
+    "hof3": {
+      "busy": {
+        "errors": 0,
+        "blocks": 210.1,
+        "parking": 2971.36
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 290,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 183.3,
+        "parking": 2605.23
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 181.8,
+        "parking": 2302.37
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 186.1,
+        "parking": 1986.83
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 169.2,
+        "parking": 2829.64
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 169.4,
+        "parking": 2910.93
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 224.2,
+        "parking": 3490.21
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.2,
+        "parking": 996.25
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.8,
+        "parking": 1230.55
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 267.4,
+        "parking": 3423.31
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 176.7,
+        "parking": 2560.7400000000002
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 177.4,
+        "parking": 2014.33
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180.2,
+        "parking": 2179.12
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.4,
+        "parking": 1508.8700000000001
+      }
+    },
+    "hof4": {
+      "busy": {
+        "errors": 0,
+        "blocks": 210.1,
+        "parking": 2971.36
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 290,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 183.3,
+        "parking": 2605.23
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 181.8,
+        "parking": 2302.37
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 186.1,
+        "parking": 1986.83
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 169.2,
+        "parking": 2829.64
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 169.4,
+        "parking": 2910.93
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 224.2,
+        "parking": 3490.21
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.2,
+        "parking": 996.25
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.8,
+        "parking": 1230.55
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 267.4,
+        "parking": 3423.31
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 176.7,
+        "parking": 2560.7400000000002
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 177.4,
+        "parking": 2014.33
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180.2,
+        "parking": 2179.12
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.4,
+        "parking": 1508.8700000000001
+      }
+    },
+    "hof5": {
+      "busy": {
+        "errors": 0,
+        "blocks": 211.5,
+        "parking": 3118.4
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 290.3,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 181.8,
+        "parking": 2292.34
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 179.4,
+        "parking": 2422.91
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 183,
+        "parking": 1881.21
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 168.1,
+        "parking": 2572.5099999999998
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 172.3,
+        "parking": 2644.79
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 219.3,
+        "parking": 3448.76
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 130.2,
+        "parking": 915.05
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.5,
+        "parking": 1207.6100000000001
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 264.5,
+        "parking": 3441.23
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175.6,
+        "parking": 2247.86
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 177.9,
+        "parking": 1974.4499999999998
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180,
+        "parking": 1948.2
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 170.5,
+        "parking": 1642.22
+      }
+    },
+    "hof6": {
+      "busy": {
+        "errors": 0,
+        "blocks": 212.6,
+        "parking": 3287.56
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 290.1,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 184,
+        "parking": 2307.71
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 181.5,
+        "parking": 2207.4
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 181.9,
+        "parking": 2348.82
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 168.8,
+        "parking": 2528.88
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 170.3,
+        "parking": 2739.54
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 219.4,
+        "parking": 3363.51
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 130,
+        "parking": 1089.35
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 134.1,
+        "parking": 1392.54
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 263,
+        "parking": 3334.46
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175.3,
+        "parking": 2607.65
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 176,
+        "parking": 2089.66
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180,
+        "parking": 2098.94
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.3,
+        "parking": 1566.81
+      }
+    },
+    "hof7": {
+      "busy": {
+        "errors": 0,
+        "blocks": 213,
+        "parking": 3133.94
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 289.6,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 183.9,
+        "parking": 2493.35
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 182.1,
+        "parking": 2242.72
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 185,
+        "parking": 2088.87
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 166.3,
+        "parking": 2396.41
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 172.1,
+        "parking": 2536.83
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 218.1,
+        "parking": 3467.94
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 128.7,
+        "parking": 794.3199999999999
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.4,
+        "parking": 1212.05
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 266.9,
+        "parking": 3388.0299999999997
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 176.2,
+        "parking": 2617.11
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 178.7,
+        "parking": 2368.89
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 178.3,
+        "parking": 2474.82
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 172.3,
+        "parking": 1478.01
+      }
+    },
+    "hof8": {
+      "busy": {
+        "errors": 0,
+        "blocks": 213,
+        "parking": 3133.94
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 289.6,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 183.9,
+        "parking": 2493.35
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 182.1,
+        "parking": 2242.72
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 185,
+        "parking": 2088.87
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 166.3,
+        "parking": 2396.41
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 172.1,
+        "parking": 2536.83
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 218.1,
+        "parking": 3467.94
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 128.7,
+        "parking": 794.3199999999999
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.4,
+        "parking": 1212.05
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 266.9,
+        "parking": 3388.0299999999997
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 176.2,
+        "parking": 2617.11
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 178.7,
+        "parking": 2368.89
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 178.3,
+        "parking": 2474.82
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 172.3,
+        "parking": 1478.01
+      }
+    },
+    "hof9": {
+      "busy": {
+        "errors": 0,
+        "blocks": 211.5,
+        "parking": 3076.51
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 288.9,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 185.5,
+        "parking": 2580.33
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 182,
+        "parking": 1767.16
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 184.1,
+        "parking": 1960.5
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 170.4,
+        "parking": 2781.91
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 172.9,
+        "parking": 2553.85
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 225.1,
+        "parking": 3397.17
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.5,
+        "parking": 985.8199999999999
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 134.3,
+        "parking": 1184.69
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 263.6,
+        "parking": 3458.62
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175.5,
+        "parking": 2496.5
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 178.1,
+        "parking": 2453.17
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 178.4,
+        "parking": 2081.25
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.4,
+        "parking": 1563.77
+      }
+    },
+    "hof10": {
+      "busy": {
+        "errors": 0,
+        "blocks": 211.5,
+        "parking": 3076.51
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 288.9,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 185.5,
+        "parking": 2580.33
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 182,
+        "parking": 1767.16
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 184.1,
+        "parking": 1960.5
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 170.4,
+        "parking": 2781.91
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 172.9,
+        "parking": 2553.85
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 225.1,
+        "parking": 3397.17
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.5,
+        "parking": 985.8199999999999
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 134.3,
+        "parking": 1184.69
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 263.6,
+        "parking": 3458.62
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175.5,
+        "parking": 2496.5
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 178.1,
+        "parking": 2453.17
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 178.4,
+        "parking": 2081.25
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.4,
+        "parking": 1563.77
+      }
+    },
+    "hof11": {
+      "busy": {
+        "errors": 0,
+        "blocks": 211.5,
+        "parking": 3076.51
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 288.9,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 185.5,
+        "parking": 2580.33
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 182,
+        "parking": 1767.16
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 184.1,
+        "parking": 1960.5
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 170.4,
+        "parking": 2781.91
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 172.9,
+        "parking": 2553.85
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 225.1,
+        "parking": 3397.17
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.5,
+        "parking": 985.8199999999999
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 134.3,
+        "parking": 1184.69
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 263.6,
+        "parking": 3458.62
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175.5,
+        "parking": 2496.5
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 178.1,
+        "parking": 2453.17
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 178.4,
+        "parking": 2081.25
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 171.4,
+        "parking": 1563.77
+      }
+    },
+    "hof12": {
+      "busy": {
+        "errors": 0,
+        "blocks": 211.6,
+        "parking": 3039.33
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 294.2,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 184,
+        "parking": 2763.08
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 182.5,
+        "parking": 2314.23
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 183,
+        "parking": 2366.33
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 166.9,
+        "parking": 2533.82
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 171.8,
+        "parking": 2713.76
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 222.1,
+        "parking": 3387.53
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 128.7,
+        "parking": 795.12
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.7,
+        "parking": 1140.06
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 266.2,
+        "parking": 3394.01
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175.8,
+        "parking": 2111.75
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 179.4,
+        "parking": 2231.42
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 175.6,
+        "parking": 2477.22
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 172.2,
+        "parking": 1435.3
+      }
+    },
+    "hof13": {
+      "busy": {
+        "errors": 0,
+        "blocks": 210.8,
+        "parking": 3069.37
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 288.9,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 182.7,
+        "parking": 2568.04
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 184.2,
+        "parking": 1941.44
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 184.3,
+        "parking": 1981.32
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 167,
+        "parking": 2376.2
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 172.3,
+        "parking": 2374.87
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 219.9,
+        "parking": 3330.02
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.2,
+        "parking": 1069.93
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 134,
+        "parking": 1172.5
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 262.9,
+        "parking": 3279.2
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175.8,
+        "parking": 1970.78
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 178.8,
+        "parking": 2151.48
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 180.5,
+        "parking": 2084.99
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 172.3,
+        "parking": 1575.05
+      }
+    },
+    "hof14": {
+      "busy": {
+        "errors": 0,
+        "blocks": 214.2,
+        "parking": 2859.96
+      },
+      "busy_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 293,
+        "parking": 3599.0
+      },
+      "default": {
+        "errors": 0,
+        "blocks": 184.7,
+        "parking": 2486.44
+      },
+      "default_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 184.4,
+        "parking": 2287.91
+      },
+      "empty_buffer": {
+        "errors": 0,
+        "blocks": 183.2,
+        "parking": 2008.35
+      },
+      "high_buffer": {
+        "errors": 0,
+        "blocks": 167.5,
+        "parking": 2718.95
+      },
+      "high_buffer_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 171,
+        "parking": 2424.94
+      },
+      "large_vehicle": {
+        "errors": 0,
+        "blocks": 220.3,
+        "parking": 3415.83
+      },
+      "quiet": {
+        "errors": 0,
+        "blocks": 129.5,
+        "parking": 1190.41
+      },
+      "quiet_uniform_interleaved": {
+        "errors": 0,
+        "blocks": 133.5,
+        "parking": 1119.7
+      },
+      "saturation": {
+        "errors": 0,
+        "blocks": 263.9,
+        "parking": 3392.86
+      },
+      "shallow_stacks": {
+        "errors": 0,
+        "blocks": 175,
+        "parking": 2340.5
+      },
+      "comp_scenario_1": {
+        "errors": 0,
+        "blocks": 180,
+        "parking": 1974.22
+      },
+      "comp_scenario_2": {
+        "errors": 0,
+        "blocks": 179,
+        "parking": 2016.04
+      },
+      "comp_scenario_3": {
+        "errors": 0,
+        "blocks": 170.8,
+        "parking": 1653.97
+      }
+    }
+  },
+  "confirm_seeds": 10
+}

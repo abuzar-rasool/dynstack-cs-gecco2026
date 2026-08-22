@@ -1,0 +1,352 @@
+[
+  {
+    "rank": 0,
+    "tree4": "sub(nearest_crane_dist, max2(is_downstream, is_upstream))",
+    "tree5": "sub(mul(min2(mul(if_gt(mul(if_gt(if_gt(dist_dropoff, dist_pickup, range_headroom, gap_to_other), dist_pickup, range_headroom, min2(range_headroom, range_headroom)), dist_dropoff), dist_pickup, range_headroom, dist_pickup), dist_dropoff), range_headroom), dist_dropoff), range_headroom)",
+    "mean_blocks": 158.0,
+    "mean_parking": 2981.616666666667,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 165.0,
+        "errors": 0,
+        "parking": 3330.4
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 185.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 146.0,
+        "errors": 0,
+        "parking": 3573.0
+      },
+      "default_uniform_interleaved": {
+        "blocks": 166.0,
+        "errors": 0,
+        "parking": 2952.0
+      },
+      "empty_buffer": {
+        "blocks": 166.0,
+        "errors": 0,
+        "parking": 2482.3
+      },
+      "high_buffer": {
+        "blocks": 141.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 139.0,
+        "errors": 0,
+        "parking": 2299.1
+      },
+      "large_vehicle": {
+        "blocks": 170.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 142.0,
+        "errors": 0,
+        "parking": 1767.9
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 141.0,
+        "errors": 0,
+        "parking": 1379.7
+      },
+      "saturation": {
+        "blocks": 181.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "shallow_stacks": {
+        "blocks": 154.0,
+        "errors": 0,
+        "parking": 3599.0
+      }
+    }
+  },
+  {
+    "rank": 1,
+    "tree4": "sub(nearest_crane_dist, max2(nearest_crane_dist, max2(is_downstream, max2(nearest_crane_dist, max2(is_downstream, is_upstream)))))",
+    "tree5": "sub(mul(min2(mul(if_gt(mul(if_gt(if_gt(dist_dropoff, dist_pickup, range_headroom, gap_to_other), dist_pickup, range_headroom, dist_pickup), dist_dropoff), dist_pickup, range_headroom, dist_pickup), dist_dropoff), max2(range_headroom, gap_to_other)), dist_dropoff), range_headroom)",
+    "mean_blocks": 157.41666666666666,
+    "mean_parking": 2534.358333333333,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 163.0,
+        "errors": 0,
+        "parking": 3396.8
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 189.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 156.0,
+        "errors": 0,
+        "parking": 2102.1
+      },
+      "default_uniform_interleaved": {
+        "blocks": 158.0,
+        "errors": 0,
+        "parking": 2111.8
+      },
+      "empty_buffer": {
+        "blocks": 167.0,
+        "errors": 0,
+        "parking": 2547.2
+      },
+      "high_buffer": {
+        "blocks": 138.0,
+        "errors": 0,
+        "parking": 1531.8
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 133.0,
+        "errors": 0,
+        "parking": 2106.0
+      },
+      "large_vehicle": {
+        "blocks": 173.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 138.0,
+        "errors": 0,
+        "parking": 1861.9
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 140.0,
+        "errors": 0,
+        "parking": 1422.5
+      },
+      "saturation": {
+        "blocks": 178.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "shallow_stacks": {
+        "blocks": 156.0,
+        "errors": 0,
+        "parking": 2535.2
+      }
+    }
+  },
+  {
+    "rank": 2,
+    "tree4": "sub(nearest_crane_dist, max2(is_downstream, max2(max2(nearest_crane_dist, is_upstream), abs(is_downstream))))",
+    "tree5": "sub(mul(min2(range_headroom, range_headroom), dist_dropoff), range_headroom)",
+    "mean_blocks": 157.41666666666666,
+    "mean_parking": 2603.7166666666667,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 163.0,
+        "errors": 0,
+        "parking": 3257.6
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 186.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 150.0,
+        "errors": 0,
+        "parking": 2322.0
+      },
+      "default_uniform_interleaved": {
+        "blocks": 147.0,
+        "errors": 0,
+        "parking": 2429.3
+      },
+      "empty_buffer": {
+        "blocks": 165.0,
+        "errors": 0,
+        "parking": 2642.8
+      },
+      "high_buffer": {
+        "blocks": 140.0,
+        "errors": 0,
+        "parking": 2450.5
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 145.0,
+        "errors": 0,
+        "parking": 1828.2
+      },
+      "large_vehicle": {
+        "blocks": 173.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 139.0,
+        "errors": 0,
+        "parking": 1596.9
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 136.0,
+        "errors": 0,
+        "parking": 1262.1
+      },
+      "saturation": {
+        "blocks": 185.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "shallow_stacks": {
+        "blocks": 160.0,
+        "errors": 0,
+        "parking": 2658.2
+      }
+    }
+  },
+  {
+    "rank": 3,
+    "tree4": "sub(nearest_crane_dist, max2(is_downstream, is_upstream))",
+    "tree5": "sub(mul(mul(if_gt(max2(dist_pickup, min2(mul(if_gt(if_gt(range_headroom, mul(if_gt(max2(dist_pickup, min2(range_headroom, range_headroom)), dist_pickup, range_headroom, dist_pickup), dist_dropoff), range_headroom, gap_to_other), dist_pickup, min2(range_headroom, range_headroom), dist_pickup), dist_dropoff), range_headroom)), dist_pickup, range_headroom, dist_pickup), dist_dropoff), dist_dropoff), range_headroom)",
+    "mean_blocks": 157.16666666666666,
+    "mean_parking": 2975.225,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 174.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 183.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 163.0,
+        "errors": 0,
+        "parking": 2680.3
+      },
+      "default_uniform_interleaved": {
+        "blocks": 154.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "empty_buffer": {
+        "blocks": 166.0,
+        "errors": 0,
+        "parking": 1435.3
+      },
+      "high_buffer": {
+        "blocks": 137.0,
+        "errors": 0,
+        "parking": 3272.0
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 144.0,
+        "errors": 0,
+        "parking": 3357.2
+      },
+      "large_vehicle": {
+        "blocks": 165.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 132.0,
+        "errors": 0,
+        "parking": 1906.0
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 134.0,
+        "errors": 0,
+        "parking": 1720.2
+      },
+      "saturation": {
+        "blocks": 178.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "shallow_stacks": {
+        "blocks": 156.0,
+        "errors": 0,
+        "parking": 3336.7
+      }
+    }
+  },
+  {
+    "rank": 4,
+    "tree4": "sub(nearest_crane_dist, max2(nearest_crane_dist, max2(is_downstream, max2(nearest_crane_dist, max2(is_downstream, is_upstream)))))",
+    "tree5": "sub(mul(min2(mul(if_gt(mul(if_gt(if_gt(dist_dropoff, dist_pickup, range_headroom, gap_to_other), dist_pickup, range_headroom, dist_pickup), dist_dropoff), dist_pickup, range_headroom, dist_pickup), dist_dropoff), range_headroom), dist_dropoff), range_headroom)",
+    "mean_blocks": 156.91666666666666,
+    "mean_parking": 2515.3166666666666,
+    "errors": 0,
+    "train_kpis": {
+      "busy": {
+        "blocks": 169.0,
+        "errors": 0,
+        "parking": 3257.6
+      },
+      "busy_uniform_interleaved": {
+        "blocks": 185.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "default": {
+        "blocks": 152.0,
+        "errors": 0,
+        "parking": 2064.3
+      },
+      "default_uniform_interleaved": {
+        "blocks": 158.0,
+        "errors": 0,
+        "parking": 2218.8
+      },
+      "empty_buffer": {
+        "blocks": 160.0,
+        "errors": 0,
+        "parking": 2482.3
+      },
+      "high_buffer": {
+        "blocks": 138.0,
+        "errors": 0,
+        "parking": 1935.1
+      },
+      "high_buffer_uniform_interleaved": {
+        "blocks": 135.0,
+        "errors": 0,
+        "parking": 1981.8
+      },
+      "large_vehicle": {
+        "blocks": 168.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "quiet": {
+        "blocks": 135.0,
+        "errors": 0,
+        "parking": 1861.9
+      },
+      "quiet_uniform_interleaved": {
+        "blocks": 140.0,
+        "errors": 0,
+        "parking": 1422.5
+      },
+      "saturation": {
+        "blocks": 185.0,
+        "errors": 0,
+        "parking": 3599.0
+      },
+      "shallow_stacks": {
+        "blocks": 158.0,
+        "errors": 0,
+        "parking": 2162.5
+      }
+    }
+  }
+]

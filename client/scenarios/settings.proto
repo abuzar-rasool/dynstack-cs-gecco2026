@@ -1,0 +1,70 @@
+// Wire-compatible schema for the C# DynStack.DataModel.CS.Settings message.
+//
+// The C# server uses protobuf-net, which encodes System.TimeSpan as a custom
+// length-delimited submessage (NOT google.protobuf.Duration). We mirror that
+// shape here so a Python-built `Settings` deserialises correctly on the C#
+// side. Field numbers MUST match the [ProtoMember(N)] tags on Settings.cs.
+
+syntax = "proto3";
+
+package dynstack.cs;
+
+// Mirrors protobuf-net's bcl.TimeSpan.
+message TimeSpan {
+  sint64 value = 1;
+  Scale  scale = 2;
+
+  enum Scale {
+    DAYS         = 0;
+    HOURS        = 1;
+    MINUTES      = 2;
+    SECONDS      = 3;
+    MILLISECONDS = 4;
+    TICKS        = 5;
+    MINMAX       = 15;
+  }
+}
+
+message Settings {
+  int32    Seed               = 1;
+  TimeSpan SimulationDuration = 2;
+
+  int32  Height = 3;
+  double Width  = 4;
+
+  int32 MaxHeightForArrival  = 5;
+  int32 MaxHeightForBuffer   = 6;
+  int32 MaxHeightForHandover = 7;
+
+  repeated double ArrivalStackPositions  = 8;
+  repeated double BufferStackPositions   = 9;
+  repeated double HandoverStackPositions = 10;
+
+  int32          BlockClasses       = 11;
+  repeated int32 BufferStackClasses = 12;
+
+  double SafetyDistance = 13;
+
+  TimeSpan CraneMoveTimeMean         = 14;
+  TimeSpan CraneMoveTimeStd          = 15;
+  TimeSpan HoistMoveTimeMean         = 16;
+  TimeSpan HoistMoveTimeStd          = 17;
+  TimeSpan CraneManipulationTimeMean = 18;
+  TimeSpan CraneManipulationTimeStd  = 19;
+
+  TimeSpan ArrivalTimeMean        = 20;
+  TimeSpan ArrivalTimeStd         = 21;
+  double   ArrivalCountMean       = 22;
+  double   ArrivalCountStd        = 23;
+  TimeSpan ArrivalServiceTimeMean = 24;
+  TimeSpan ArrivalServiceTimeStd  = 25;
+
+  TimeSpan HandoverTimeMean        = 26;
+  TimeSpan HandoverTimeStd         = 27;
+  double   HandoverCountMean       = 28;
+  double   HandoverCountStd        = 29;
+  TimeSpan HandoverServiceTimeMean = 30;
+  TimeSpan HandoverServiceTimeStd  = 31;
+
+  double InitialBufferUtilization = 32;
+}
